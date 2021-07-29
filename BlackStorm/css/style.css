@@ -1,0 +1,56 @@
+body {
+	font-family: 'Share Tech Mono', monospace;
+	background: #4f6f6f;
+}
+
+.cabecalho {
+	background: #2f4f4f;
+	text-align: center;
+}
+
+.titulo_principal {
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 1.5rem;
+	text-decoration: underline;
+	border: 2px solid #4f6f6f;
+	background: #2e8b57;
+}
+
+.principal_container {
+	padding: 10px;
+	text-align: center;
+}
+
+p {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+strong {
+	font-weight: bolder;
+	font-style: italic;
+}
+
+.localizacao_container {
+	text-align: center;
+}
+
+.qualidades_container {
+	text-align: center;
+}
+
+.itens:before {
+	content: "📱";
+}
+
+.itens {
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.itens:after {
+	content: "📱";
+}
