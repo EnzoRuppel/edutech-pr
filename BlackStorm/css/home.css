@@ -1,0 +1,242 @@
+body {
+	font-family: 'Share Tech Mono', monospace;
+	background: #4f6f6f;
+}
+
+.cabecalho {
+	background: #2f4f4f;
+	text-align: center;
+}
+
+footer {
+	background: #1c1c1c;
+	text-align: center;
+	color: #daa520;
+	font-size: 1.8em;
+}
+
+	@media only screen and (max-width: 600px) {
+	.titulo_principal {
+		margin-bottom: 10px;
+		text-align: center;
+		font-weight: bolder;
+		font-size: 1.5rem;
+		text-decoration: underline;
+		border: 2px solid #4f6f6f;
+		background: #2e8b57;
+	}
+
+	.principal_container {
+		padding: 10px;
+		text-align: center;
+	}
+
+	p {
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	strong {
+		font-weight: bolder;
+		font-style: italic;
+	}
+
+	.localizacao_container {
+		text-align: center;
+	}
+
+	.mapa {
+		display: block;
+	}
+
+	.qualidades_container {
+		text-align: center;
+	}
+
+	.itens:before {
+		content: "📱";
+	}
+
+	.itens {
+		font-weight: bold;
+		font-size: 20px;
+		padding: 10px;
+	}
+
+	.itens:after {
+		content: "📱";
+	}
+
+	.link {
+		width: 50%;
+		font-size: 30px;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: #daa520;
+		text-decoration: none;
+		display: block;
+		margin: 15px auto;
+		border: solid black 2px;
+		border-radius: 10px 0 10px 0;
+		background: #556b2f;
+	}
+
+	.link:hover {
+		transform: scale(1.5);
+		transition: 400ms;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.titulo_principal {
+		width: 65vw;
+		margin: 0 auto;
+		margin-bottom: 10px;
+		text-align: center;
+		font-weight: bolder;
+		font-size: 2.5rem;
+		text-decoration: underline;
+		border: 2px solid #4f6f6f;
+		background: #2e8b57;
+	}
+
+	.principal_container {
+		padding: 10px;
+		text-align: center;
+	}
+
+	p {
+		font-size: 40px;
+		font-weight: bold;
+	}
+
+	strong {
+		font-weight: bolder;
+		font-style: italic;
+	}
+
+	.localizacao_container {
+		text-align: center;
+	}
+
+	.mapa {
+		display: block;
+	}
+
+	.qualidades_container {
+		text-align: center;
+	}
+
+	.itens:before {
+		content: "📱";
+	}
+
+	.itens {
+		font-weight: bold;
+		font-size: 2em;
+		padding: 10px;
+	}
+
+	.itens:after {
+		content: "📱";
+	}
+
+	.link {
+		width: 65vw;
+		font-size: 50px;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: #daa520;
+		text-decoration: none;
+		display: block;
+		margin: 15px auto;
+		border: solid black 2px;
+		border-radius: 10px 0 10px 0;
+		background: #556b2f;
+	}
+
+	.link:hover {
+		transform: scale(1.5);
+		transition: 400ms;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.titulo_principal {
+		width: 65vw;
+		margin: 0 auto;
+		margin-bottom: 10px;
+		text-align: center;
+		font-weight: bolder;
+		font-size: 2.5rem;
+		text-decoration: underline;
+		border: 2px solid #4f6f6f;
+		background: #2e8b57;
+	}
+
+	.principal_container {
+		padding: 10px;
+		text-align: center;
+	}
+
+	p {
+		font-size: 40px;
+		font-weight: bold;
+	}
+
+	strong {
+		font-weight: bolder;
+		font-style: italic;
+	}
+
+	.localizacao_container {
+		text-align: center;
+	}
+
+	.mapa {
+		display: block;
+		margin: 15px;
+	}
+
+	iframe {
+		width: 75vw;
+		height: 75vh;
+	}
+
+	.qualidades_container {
+		text-align: center;
+	}
+
+	.itens:before {
+		content: "📱";
+	}
+
+	.itens {
+		font-weight: bold;
+		font-size: 2em;
+		padding: 10px;
+	}
+
+	.itens:after {
+		content: "📱";
+	}
+
+	.link {
+		width: 65vw;
+		font-size: 50px;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: #daa520;
+		text-decoration: none;
+		display: block;
+		margin: 15px auto;
+		border: solid black 2px;
+		border-radius: 10px 0 10px 0;
+		background: #556b2f;
+	}
+
+	.link:hover {
+		transform: scale(1.5);
+		transition: 400ms;
+	}
+}

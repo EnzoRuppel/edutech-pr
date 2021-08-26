@@ -1,0 +1,168 @@
+body {
+	background: #4f6f6f;
+	font-family: 'Share Tech Mono', monospace;
+}
+
+.cabecalho {
+	background: #2f4f4f;
+	text-align: center;
+}
+
+footer {
+	background: #1c1c1c;
+	text-align: center;
+	color: #daa520;
+	font-size: 1.8em;
+}
+
+@media only screen and (max-width: 600px) {
+	form label, form legend {
+		text-align: center;
+		display: block;
+		font-size: 20px;
+	}
+
+	.input-padrao {
+  		display: block;
+  		margin: 10px auto;
+  		padding: 10px 25px;
+  		width: 50vw;
+  		background: #1c1c1c;
+  		color: #daa520;
+	}
+
+	select {
+		display: block;
+		margin: 10px auto;
+		padding: 10px 10px 10px 10px;
+		font-size: 30px;
+		background: #1c1c1c;
+		color: #daa520;
+	}
+
+	option {
+		font-size: 15px;
+		background: #1c1c1c;
+		color: #daa520;
+	}
+
+	.enviar {
+		width: 85vw;
+		font-size: 20px;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: #daa520;
+		display: block;
+		margin: 15px auto;
+		border: solid black 2px;
+		border-radius: 10px 0 10px 0;
+		background: #556b2f;
+	}
+
+	.enviar:hover {
+		background: #1c1c1c;
+		transition: 400ms;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	form label, form legend {
+		text-align: center;
+		display: block;
+		font-size: 40px;
+	}
+
+	.input-padrao {
+  		display: block;
+  		margin: 10px auto;
+  		padding: 20px 35px;
+  		width: 65vw;
+  		background: #1c1c1c;
+  		color: #daa520;
+  		font-size: 35px;
+	}
+
+	select {
+		display: block;
+		margin: 10px auto;
+		padding: 10px 10px 10px 10px;
+		font-size: 50px;
+		background: #1c1c1c;
+		color: #daa520;
+	}
+
+	option {
+		font-size: 15px;
+		background: #1c1c1c;
+		color: #daa520;
+	}
+
+	.enviar {
+		width: 85vw;
+		font-size: 40px;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: #daa520;
+		display: block;
+		margin: 15px auto;
+		border: solid black 4px;
+		border-radius: 20px 0 20px 0;
+		background: #2f4f4f;
+	}
+
+	.enviar:hover {
+		background: #1c1c1c;
+		transition: 400ms;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	form label, form legend {
+		text-align: center;
+		display: block;
+		font-size: 40px;
+	}
+
+	.input-padrao {
+			display: block;
+			margin: 10px auto;
+			padding: 20px 35px;
+			width: 65vw;
+			background: #1c1c1c;
+			color: #daa520;
+			font-size: 35px;
+	}
+
+	select {
+		display: block;
+		margin: 10px auto;
+		padding: 10px 10px 10px 10px;
+		font-size: 50px;
+		background: #1c1c1c;
+		color: #daa520;
+	}
+
+	option {
+		font-size: 40px;
+		background: #1c1c1c;
+		color: #daa520;
+	}
+
+	.enviar {
+		width: 85vw;
+		font-size: 40px;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: #daa520;
+		display: block;
+		margin: 15px auto;
+		border: solid black 4px;
+		border-radius: 20px 0 20px 0;
+		background: #2f4f4f;
+	}
+
+	.enviar:hover {
+		background: #1c1c1c;
+		transition: 400ms;
+	}
+}
