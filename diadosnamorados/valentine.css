@@ -1,0 +1,20 @@
+body {
+	background: url(https://static.vecteezy.com/ti/vetor-gratis/p1/1957789-fundo-do-dia-feliz-dos-namorados-gr%C3%A1tis-vetor.jpg);
+}
+
+.cartao{
+	width: 960px;
+	margin: 0 auto;
+	color: black;
+}
+
+.texto {
+	font-family: 'Lovers Quarrel', cursive;
+	text-align: center;
+	padding: 1em;
+	font-size: 3em;
+	font-color:  black;
+	font-weight: bold;
+	text-decoration: underline;
+	text-decoration-color: black;
+}

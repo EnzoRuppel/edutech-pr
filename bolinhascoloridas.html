@@ -1,0 +1,49 @@
+<canvas width = "600" height = "400" ></canvas>
+
+<script>
+   var tela = document.querySelector ('canvas');
+   var pincel = tela.getContext ('2d');
+   
+   pincel.fillStyle ='gray';
+   
+   pincel.fillRect(0, 0, 600, 400);
+   
+   function desenhaCirculo (x, y, raio, cor) {
+      pincel.fillStyle = cor;
+      pincel.beginPath();
+      pincel.arc (x, y, raio, 0, 2 * Math.PI);
+      pincel.fill();
+   }
+   
+   function limpaTela() {
+      pincel.clearRect (0, 0, 600, 400);
+   }
+   
+   var x = 20;
+   var sentido = 1;
+   
+   function atualizaTela() {
+      limpaTela();
+
+      if (x > 600) {
+         sentido = -1;
+      } else if (x < 0) {
+         sentido = 1;
+      }
+      
+      desenhaCirculo (x, 20, 10, 'blue');
+      desenhaCirculo (x, 40, 10, 'red');
+      desenhaCirculo (x, 60, 10, 'yellow');
+      desenhaCirculo (x, 80, 10, 'green');
+      desenhaCirculo (x, 100, 10, 'orange');
+      desenhaCirculo (x, 120, 10, 'pink');
+      desenhaCirculo (x, 140, 10, 'purple');
+      desenhaCirculo (x, 160, 10, 'black');
+      desenhaCirculo (x, 180, 10, 'brown');
+      desenhaCirculo (x, 200, 10, 'gray');
+
+      x = x + sentido;
+   }
+   
+   setInterval (atualizaTela, 10);
+</script>
